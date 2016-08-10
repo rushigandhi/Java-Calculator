@@ -3,17 +3,16 @@ import java.util.Scanner;
 public class BasicJavaCalculator {
 
    public static void main(String[] args) {
-      Scanner numbers = new Scanner(System.in);
+      Scanner input = new Scanner(System.in);
       double firstNum;
       double secondNum;
       int operator;
-      Scanner opera = new Scanner(System.in);
          System.out.println("Enter the first number:");
-         firstNum = numbers.nextDouble();
+         firstNum = input.nextDouble();
          System.out.println("Enter the operator (1 for addition, 2 for subtraction, 3 for multiplication, and 4 for division)");
-         operator = opera.nextInt();
+         operator = input.nextInt();
          System.out.println("Enter the second number:");
-         secondNum = numbers.nextDouble();
+         secondNum = input.nextDouble();
       
       if (operator == 1){
       
